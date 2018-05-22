@@ -1,0 +1,28 @@
+body{
+  background-color: blue;
+}
+/*bubble size for speech bubble  */
+.speech-bubble{
+  background-color: red;
+  width: 100px;
+  height:53px;
+  padding:16px;
+  border-radius: 5px;
+  font-family: arial;
+  position: relative;
+  left: 40%;
+  padding-right: 0px
+}
+/* smaller part,style and use transparency to decrease the visibilty  */
+.speech-bubble::after{
+  content: "";
+  height: 0;
+  width: 2px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 16px solid red;
+  position: absolute;
+  top: 10px;
+  left: -24px;
+}

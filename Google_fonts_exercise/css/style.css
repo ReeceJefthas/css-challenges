@@ -1,0 +1,16 @@
+/*import from google fonts for webpage  */
+  @import url('https://fonts.googleapis.com/css?family=Nosifer');
+
+/* styling for each paragraph */
+/* change font family for html or import for each paragraph */
+  .Paragraph{
+    font-size: 30px;
+    line-height:30px;
+  font-family: 'Black Han Sans', sans-serif,gugi,oswald;
+  }
+  .paragraph2{
+    font-size: 30px;
+    line-height:30px;
+  font-family: 'Nosifer', cursive,sans-serif,gugi,oswald;
+
+  }

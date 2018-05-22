@@ -1,0 +1,66 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+  background: linear-gradient(to top right, #00409254, #020202)
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* Write your CSS below here */
+article{
+  background-color: white;
+}
+.box {
+  border: 1mm solid red;
+  padding: 10px;
+ background-image: url('C:\Users\Academy17\Desktop\Reece\css_challenges\challenge_3\images\top.png');
+ background-repeat: no-repeat;
+
+}
+
+.footer{
+  border: 1mm solid red;
+  padding: 10px;
+ background-image: url('C:\Users\Academy17\Desktop\Reece\css_challenges\challenge_3\images\bottom.png');
+ background-repeat: no-repeat;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ width: 793px;
+ text-align:right;
+
+}

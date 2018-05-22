@@ -1,0 +1,72 @@
+h1{font-style: italic;
+padding: 20px;
+background-color: blue;
+font-size: 40px;
+margin: 0px;
+
+}
+body{
+  background-image: url(../images/league.jpg);
+ background-size: cover;
+ margin: 20px;
+ margin-bottom: 50px;
+
+}
+/* sticky footer(but not sticking) */
+.footer{
+  background-color: blue;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 5px;
+  border:1px;
+
+}
+p{color: red;
+  font-size: 17px;
+}
+/*styling the submit button  */
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: auto;
+  transition: all 0.9s;
+  cursor: pointer;
+  margin: 5px;
+}
+.container1{
+  color: red;
+}
+h2{
+  color: blue;
+}
+/*changes for link line  */
+a:link {
+    color: green;
+}
+
+
+a:visited {
+    color: orange;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+
+a:active {
+    color: blue;
+}
+/*placeholder inside the box  */
+::placeholder {
+    color: blue;
+    opacity: 1;

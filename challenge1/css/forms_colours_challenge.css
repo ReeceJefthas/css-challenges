@@ -1,0 +1,46 @@
+body{
+  background-color:grey;
+
+
+
+}
+/* headings */
+h1,h2,h3,h4{ color: #C0E0DE;
+  font-style: oblique;
+}
+/*styling of the paragrph  */
+  p {
+      text-shadow: 3px 2px 2px #4F7CAC;
+      font-family: cursive;
+      color: white;
+        font-style: italic;
+  }
+  /* targetting of a paragraph with nth-of-type */
+  p:nth-of-type(2){
+    background-color: #D81159;
+}
+p:nth-of-type(1){
+  background-color: #8F2D56;
+}
+p:nth-of-type(3){
+  background-color: #218380;
+}
+p:nth-of-type(4){
+  background-color: #218380;
+}
+p:nth-of-type(5){
+  background-color: #D81159;
+}
+}
+p:nth-of-type(6){
+  background-color: #D81159;
+}
+
+
+
+
+
+
+
+
+}
